@@ -1,1 +1,13 @@
+#  create database 
+
+create database teeacherdata;
+
+# create table 
+
+CREATE TABLE teacher (
+    id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    experience VARCHAR(50) NOT NULL,
+    salary INT NOT NULL
+);
 
